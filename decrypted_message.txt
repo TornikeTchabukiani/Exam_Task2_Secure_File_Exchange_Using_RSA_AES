@@ -1,0 +1,13 @@
+Dear Bob,
+
+This is a highly confidential message that demonstrates hybrid encryption.
+We are using RSA to secure the AES key, and AES to encrypt this message.
+
+This approach combines:
+- RSA's strength for key exchange (asymmetric)
+- AES's efficiency for data encryption (symmetric)
+
+The message is signed with integrity verification using SHA-256.
+
+Best regards,
+Alice
